@@ -2,4 +2,8 @@
     <string name="app_name">ChallengeLogin</string>
     <string name="title_activity_main">MainActivity</string>
     <string name="login">Login</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="home_welcome">Welcome, %1$s!</string>
+    <string name="home_subtitle">You are now logged in.</string>
 </resources>

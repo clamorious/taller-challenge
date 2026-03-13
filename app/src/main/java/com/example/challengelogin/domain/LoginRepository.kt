@@ -6,5 +6,5 @@ import com.example.challengelogin.data.model.LoginResponseDTO
 
 interface LoginRepository {
 
-    fun login(request: LoginRequestDTO) : ApiResource<LoginResponseDTO>
+    suspend fun login(request: LoginRequestDTO) : ApiResource<LoginResponseDTO>
 }
